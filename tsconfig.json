@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    /* ---- Module + Target ---- */
+  "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+
+    /* ---- File Layout ---- */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* ---- Strictness ---- */
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    /* ---- Module + Import Safety ---- */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "preserveSymlinks": false,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "moduleDetection": "force",
+    "resolveJsonModule": false,
+
+    /* ---- Output & Tools ---- */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "newLine": "lf",
+
+    /* ---- Performance / Safety ---- */
+    "skipLibCheck": true,
+    "strictBindCallApply": true,
+    "useUnknownInCatchVariables": true,
+    "noImplicitOverride": true
+  },
+  "include": ["src"]
+}
